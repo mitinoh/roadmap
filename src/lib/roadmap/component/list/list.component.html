@@ -1,0 +1,5 @@
+<div class="list">
+  <span class="title">{{ roadmap?.getTitle }}</span>
+  <span class="desc">{{ roadmap?.getDesc }}</span>
+  <ion-card *ngFor="let key of roadmap?.keys" [roadmap]="roadmap!" [key]="key" [downvote]="true"></ion-card>
+</div>

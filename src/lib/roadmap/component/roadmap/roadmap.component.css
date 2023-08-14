@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+:host {
+
+  --text: #000000;
+  --secondary-text: #0000008a;
+  --border-radius: .5rem;
+  --card: #0000000f;
+  --primary-bg: #007eff1f;
+  --primary: #007effd9;
+  --secondary: #ff0f0f;
+  --secondary-bg: #ff00001f;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}

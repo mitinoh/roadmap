@@ -1,0 +1,15 @@
+.error {
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-svg {
+  color: red;
+}
+.error-text {
+  color: black;
+  font-size: 2rem;
+}

@@ -1,0 +1,5 @@
+<div [ngClass]="class" (click)="onVote()">
+  <span [ngClass]="classRotate" [svgIcon]="SVG.ARROW" [ngStyle]="{ width: '20px', height: '20px'}">
+  </span>
+  <span class="value"> {{ key.value(down) }} </span>
+</div>

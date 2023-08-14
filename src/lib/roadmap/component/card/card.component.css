@@ -1,0 +1,34 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--card);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+}
+
+.card .info {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.card .info .title {
+  font-weight: bolder;
+}
+.card .info .desc {
+  font-size: .7rem;
+  color: var(--secondary-text);
+}
+
+.card .vote {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 30%;
+  gap: .5rem;
+}
+
+ion-button {
+  max-width: 3rem;
+  min-width: 3rem;
+}

@@ -1,0 +1,31 @@
+.button {
+  border-radius: var(--border-radius);
+  min-height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.up {
+  background-color: var(--primary-bg);
+  color: var(--primary);
+}
+
+.up.voted {
+  box-shadow: 0 0 0 3px var(--primary) inset;
+}
+
+.down {
+  background-color: var(--secondary-bg);
+  color: var(--secondary);
+}
+
+.down.voted {
+  box-shadow: 0 0 0 3px var(--secondary) inset;
+}
+
+.rotate {
+  transform: rotate(180deg) 
+}

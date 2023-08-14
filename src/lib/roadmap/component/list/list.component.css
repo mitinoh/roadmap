@@ -1,0 +1,15 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  padding: .5rem;
+}
+
+.title {
+  font-weight: bolder;
+  font-size: 1.7rem;
+}
+
+.desc {
+  color: var(--secondary-text)
+}

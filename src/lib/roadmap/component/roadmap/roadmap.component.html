@@ -1,0 +1,5 @@
+<span [ngSwitch]="loadingStatus">
+  <ion-list *ngSwitchCase="LOAD.LOADED" [roadmap]="roadmap"></ion-list>
+  <ion-error *ngSwitchCase="LOAD.ERROR" [message]="messageError"></ion-error>
+  <ion-spinner *ngSwitchDefault>...</ion-spinner>
+</span>
